@@ -49,7 +49,7 @@ example 4:
 Enter the order total in $: 5
 Enter the delivery day (e.g. Monday): tuesday
 Order total: $5.00 on Tuesday.
-Delivery fee: $5.00. Standard weekend delivery fee applies
+Delivery fee: $5.00. Standard weekday delivery fee applies
 ```
 
 example 5:
