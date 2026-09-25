@@ -4,9 +4,9 @@ if order_total.replace(".",'',1).isdigit():
     if order_total>0 and order_total<=1000:
         delivery_day=input("Enter the delivery day (e.g. Monday): ")
         delivery_day=delivery_day.lower()
-        weeks=["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
+        week_days=["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
         weekend=["saturday","sunday"]
-        if delivery_day in weeks:
+        if delivery_day in week_days:
             if delivery_day in weekend and order_total<50:
                 delivery_fee=7.00
                 message="Weekend small-order surcharge applies"
